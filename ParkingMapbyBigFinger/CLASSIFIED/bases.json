@@ -1,0 +1,301 @@
+{
+  "?xml": {
+    "@version": "1.0",
+    "@encoding": "UTF-8"
+  },
+  "metadata": {
+    "idinfo": {
+      "citation": {
+        "citeinfo": {
+          "origin": null,
+          "pubdate": "20180412",
+          "title": "Military Bases",
+          "geoform": "vector digital data",
+          "pubinfo": { "publish": "DC GIS" },
+          "lworkcit": {
+            "citeinfo": {
+              "origin": null,
+              "title": "DC Geographic Information System",
+              "geoform": "vector digital data"
+            }
+          }
+        }
+      },
+      "descript": {
+        "abstract": "Military Facilities. The dataset contains locations and attributes of Military Facilities, created as part of the DC Geographic Information System (DC GIS) for the D.C. Office of the Chief Technology Officer (OCTO) and participating D.C. government agencies. Information researched by the DC Office of the Chief Technology Officer identified Military Facilities and DC GIS staff geo-processed the data. METADATA CONTENT IS IN PROCESS OF VALIDATION AND SUBJECT TO CHANGE.",
+        "purpose": "This data is used for the planning and management of Washington, D.C. by local government agencies."
+      },
+      "status": {
+        "progress": "Complete",
+        "update": "As needed"
+      },
+      "spdom": {
+        "bounding": {
+          "westbc": "-77.085467",
+          "eastbc": "-76.991250",
+          "northbc": "38.944505",
+          "southbc": "38.819949"
+        }
+      },
+      "keywords": {
+        "theme": [
+          {
+            "themekt": "None",
+            "themekey": [ "planningCadastre", "Air Force", "Federal", "Army", "Navy", "intelligenceMilitary", "Defense", "Marines", "Military", "Government Facility", "boundary" ]
+          },
+          {
+            "themekt": "ISO 19115 Topic Categories",
+            "themekey": [ "planningCadastre", "intelligenceMilitary" ]
+          }
+        ],
+        "place": {
+          "placekt": "None",
+          "placekey": [ "DCGIS", "DC GIS", "District of Columbia", "DC", "Washington", "D.C." ]
+        }
+      },
+      "accconst": "None",
+      "useconst": "This work is licensed under a Creative Commons Attribution 4.0 International License.",
+      "ptcontac": {
+        "cntinfo": {
+          "cntorgp": {
+            "cntorg": "D.C. Office of the Chief Technology Officer",
+            "cntper": "GIS Data Coordinator"
+          },
+          "cntaddr": {
+            "addrtype": "mailing and physical",
+            "address": "200 I Street SE, 5th Floor",
+            "city": "Washington",
+            "state": "DC",
+            "postal": "20003",
+            "country": "US"
+          },
+          "cntfax": "(202) 727-5660",
+          "cntemail": "dcgis@dc.gov",
+          "hours": "8:30 am - 5 pm"
+        }
+      },
+      "datacred": "DC Office of the Chief Technology Officer"
+    },
+    "dataqual": {
+      "attracc": { "attraccr": "Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency." },
+      "logic": "In process of validation by source and/or responsible agency.",
+      "complete": "Data believed to be complete and accurate, subject to change. Digital version compared with original source data for accuracy and completeness. Validated by source and/or responsible agency.",
+      "posacc": {
+        "horizpa": { "horizpar": "In process of validation by source and/or responsible agency." },
+        "vertacc": { "vertaccr": "N/A" }
+      },
+      "lineage": {
+        "srcinfo": [
+          {
+            "srccite": {
+              "citeinfo": {
+                "origin": null,
+                "pubdate": "20020101",
+                "title": "Military websites"
+              }
+            },
+            "typesrc": "None",
+            "srctime": {
+              "timeinfo": { "sngdate": { "caldate": "20020101" } },
+              "srccurr": "publication date"
+            },
+            "srccitea": "Military websites",
+            "srccontr": "locations and attributes"
+          },
+          {
+            "srccite": {
+              "citeinfo": {
+                "origin": null,
+                "pubdate": "20050101",
+                "title": "Metro Washington DC",
+                "edition": "37th",
+                "pubinfo": {
+                  "pubplace": null,
+                  "publish": "ADC"
+                },
+                "onlink": "http://www.adcmap.com"
+              }
+            },
+            "srcscale": "24000",
+            "typesrc": "None",
+            "srctime": {
+              "timeinfo": { "sngdate": { "caldate": "20050101" } },
+              "srccurr": "publication date"
+            },
+            "srccitea": "ADC - Washington DC Metro",
+            "srccontr": "location"
+          }
+        ],
+        "procstep": [
+          {
+            "procdesc": "Staff researched the location and extent of military facilities from web resources and the ADC Map Book. Using the 2003 orthophoto, snapbase, planimetrics, and exisiting military layers, staff digitized the boundaries of the military facilities. They do not follow the snapbase. Instead, they follow the fence line, water line, and other ground identifiable features. Pictometry was used in certain locations to determine ground features for capture as part of the boundary. Staff then joined the existing military facility point layer with the polygon layer to transfer attribute information. Then, staff verified the attributes and checked the data against existing sources.",
+            "proccont": {
+              "cntinfo": {
+                "cntorgp": {
+                  "cntorg": "Office of the Chief Technology Officer",
+                  "cntper": "GIS Data Coordinator"
+                },
+                "cntaddr": {
+                  "addrtype": "mailing and physical",
+                  "address": "200 I Street SE, 5th Floor",
+                  "city": "Washington",
+                  "state": "DC",
+                  "postal": "20001",
+                  "country": "US"
+                },
+                "cntfax": "202-727-5660",
+                "cntemail": "dcgis@dc.gov",
+                "hours": "8:30am - 5:00pm"
+              }
+            }
+          },
+          {
+            "procdesc": "Added Marine Barracks to the dataset.",
+            "srcused": "withheld",
+            "proccont": {
+              "cntinfo": {
+                "cntorgp": {
+                  "cntorg": "Office of the Chief Technology Officer",
+                  "cntper": "GIS Data Coordinator"
+                },
+                "cntaddr": {
+                  "addrtype": "mailing and physical",
+                  "address": "200 I Street SE, 5th Floor",
+                  "city": "Washington",
+                  "state": "DC",
+                  "postal": "20001",
+                  "country": "US"
+                },
+                "cntfax": "202-727-5660",
+                "cntemail": "dcgis@dc.gov",
+                "hours": "8:30am - 5:30pm"
+              }
+            }
+          },
+          {
+            "procdesc": "Following changes were made: - DIA & Anacostia Naval Station & Bolling were merged. They are now one base called Joint Base Anacostia Bolling. Staff topologically aligned the boundaries of these features and dissolved into one polygon to tag as JBAB. - Changed the name of the Naval Security Station (Nebraska Avenue & Mass ave NW) to Nebraska Avenue Complex. - Marine Barracks included three more building (SE corner I & 8th. SE corner 9th & NW corner of 7th & L (plus parking garage). Staff grabbed the owner polygons for these properties and added them to the existing marine barracks.",
+            "procdate": "20111121",
+            "proccont": { "cntinfo": { "cntorgp": { "cntorg": "OCTO" } } }
+          },
+          {
+            "procdesc": "Staff updated the boundary of Marine Barracks Washington to remove Capper Recreation Center. ",
+            "procdate": "20180412",
+            "proccont": {
+              "cntinfo": {
+                "cntorgp": {
+                  "cntorg": "D.C. Office of the Chief Technology Officer",
+                  "cntper": "GIS Data Coordinator"
+                },
+                "cntaddr": {
+                  "addrtype": "mailing and physical",
+                  "address": "200 I Street SE, 5th Floor",
+                  "city": "Washington",
+                  "state": "DC",
+                  "postal": "20003",
+                  "country": "US"
+                },
+                "cntfax": "(202) 727-5660",
+                "cntemail": "dcgis@dc.gov",
+                "hours": "8:30 am - 5 pm"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "spdoinfo": {
+      "direct": "Vector",
+      "ptvctinf": {
+        "sdtsterm": {
+          "sdtstype": "GT-polygon composed of chains",
+          "ptvctcnt": "9"
+        }
+      }
+    },
+    "eainfo": {
+      "detailed": {
+        "enttyp": { "enttypl": "MilitaryPly" },
+        "attr": [
+          {
+            "attrlabl": "OBJECTID",
+            "attrdef": "Internal feature number.",
+            "attrdefs": "Esri",
+            "attrdomv": { "udom": "Sequential unique whole numbers that are automatically generated." }
+          },
+          {
+            "attrlabl": "SHAPE",
+            "attrdef": "Feature geometry.",
+            "attrdefs": "Esri",
+            "attrdomv": { "udom": "Coordinates defining the features." }
+          },
+          {
+            "attrlabl": "NAME",
+            "attrdef": "Military Installation Name"
+          },
+          {
+            "attrlabl": "ADDRESS",
+            "attrdef": "Military Installation Address"
+          },
+          {
+            "attrlabl": "GIS_ID",
+            "attrdef": "OCTO GIS sequential identifier"
+          },
+          {
+            "attrlabl": "WEB_URL",
+            "attrdef": "Military Installation Web url link"
+          },
+          { "attrlabl": "SHAPE.AREA" },
+          { "attrlabl": "SHAPE.LEN" }
+        ]
+      }
+    },
+    "distinfo": {
+      "distrib": {
+        "cntinfo": {
+          "cntorgp": {
+            "cntorg": "D.C. Office of the Chief Technology Officer",
+            "cntper": "GIS Data Coordinator"
+          },
+          "cntaddr": {
+            "addrtype": "mailing and physical",
+            "address": "200 I Street SE, 5th Floor",
+            "city": "Washington",
+            "state": "DC",
+            "postal": "20003",
+            "country": "US"
+          },
+          "cntfax": "(202) 727-5660",
+          "cntemail": "dcgis@dc.gov",
+          "hours": "8:30 am - 5 pm"
+        }
+      },
+      "distliab": "See access and use constraints information.",
+      "custom": "DC datasets can be downloaded from \"http://opendata.dc.gov\"."
+    },
+    "metainfo": {
+      "metd": "20180928",
+      "metc": {
+        "cntinfo": {
+          "cntorgp": {
+            "cntorg": "D.C. Office of the Chief Technology Officer",
+            "cntper": "GIS Data Coordinator"
+          },
+          "cntaddr": {
+            "addrtype": "mailing and physical",
+            "address": "200 I Street SE, 5th Floor",
+            "city": "Washington",
+            "state": "DC",
+            "postal": "20003",
+            "country": "US"
+          },
+          "cntfax": "(202) 727-5660",
+          "cntemail": "dcgis@dc.gov",
+          "hours": "8:30 am - 5 pm"
+        }
+      },
+      "metstdn": "FGDC Content Standard for Digital Geospatial Metadata",
+      "metstdv": "FGDC-STD-001-1998",
+      "mettc": "local time"
+    }
+  }
+}
